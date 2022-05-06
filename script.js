@@ -1,16 +1,16 @@
 /* Write the code that will ask login with prompt.
-If user enter 'Admin' in login field, prompt ask password, 
-    - if login field contain nothing anf push 'ok' or Esc button pushed - show 'Canceled', 
+If user enter 'Admin' in login field, prompt asks password, 
+    - if login field contain nothing and push 'ok' or Esc button pushed - show 'Canceled', 
     - in other way show 'I don't know you'.
 Password: 1) Right password is 'I am main' -> 'Hello!',
           2) Other -> 'Wrong password'
-          3) When youser canseled prompt - 'Canceled' 
+          3) When youser canceled prompt - 'Canceled' 
 */
 
 
 let autorizationLogin = prompt('Enter your login', 'Your Login');
-let rightUserLogin = 'Admin';
-let rightUserPassword = 'I am main';
+const rightUserLogin = 'Admin';
+const rightUserPassword = 'I am main';
 
 if (autorizationLogin === rightUserLogin){
     let autorizationPassword = prompt('Enter your password', 'Your Password');
