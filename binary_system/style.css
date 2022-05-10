@@ -1,0 +1,22 @@
+ul li{
+    list-style-type: none;
+    float: left;
+    width: 100px;
+    background-color: aquamarine;
+    margin: 10px;
+    border: solid 1px black;
+}
+a{
+    text-decoration: none;
+    line-height: 1.8em;
+    font-size: 24px;
+    display: block;
+    color: rgb(5, 43, 41);
+    line-height: 4em;
+    font-weight: bold;
+    text-align: center
+}
+li a:hover{
+    color: rgb(240,113,56);
+    background-color: hsl(160, 58%, 64%);
+}
